@@ -3970,11 +3970,14 @@ a.voteWeight {
 }
 /* End Addon */
 /* Addon: Tab Menu Position */
+#header-bottom-left {
+  position: absolute;
+  top: 90px !important;
+}
 #header .tabmenu:before {
   background: rgba(0, 0, 0, 0) !important;
 }
 #header .tabmenu li.selected a {
-  color: rgba(0, 0, 0, 0) !important;
   border-bottom: none !important;
 }
 /* End Addon */
