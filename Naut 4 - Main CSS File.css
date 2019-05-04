@@ -3858,7 +3858,7 @@ div.titlebox span.number:after {
     display: block;
     height: 22px;
     width: 176px;
-    background-image: url(%%title%%);
+    background-image: url(%%title-dark%%);
     background-repeat: no-repeat;
     background-size: auto 100%;
     text-indent: -9999px;
@@ -3941,5 +3941,31 @@ a.voteWeight {
 
 .search-page #search input[type=text] {
     color: #E0E0E0 !important;
+}
+/* End Addon */
+/* Addon: Remove Sidebar Image */
+.side::before {
+    content: none;
+}
+
+#search,
+.submit .morelink,
+.side .titlebox h1.redditname,
+.subscribers,
+.titlebox .fancy-toggle-button {
+    margin-top: -80px;
+}
+
+.side {
+    margin-top: 202px;
+}
+/* End Addon */
+/* Addon: Infobox ReColor */
+.side .titlebox h1.redditname:before {
+    background-color: #769278;
+}
+
+.side .titlebox h1.redditname a, .titlebox span.subscribers {
+    color: #222;
 }
 /* End Addon */
