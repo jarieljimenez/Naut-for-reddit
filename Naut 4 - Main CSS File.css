@@ -3969,3 +3969,7 @@ a.voteWeight {
     color: #222;
 }
 /* End Addon */
+/* Addon: Tab Menu Position */
+#header .tabmenu:before {
+  background: rgba(0, 0, 0, 0) !important;
+/* End Addon */
